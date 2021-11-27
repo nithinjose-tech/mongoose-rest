@@ -25,7 +25,7 @@ app.use(cors());
 
 app.use(bodyParser.json());
 
-app.use("/api/users", userRoutes);
+app.use("/", userRoutes);
 
 // app.get("/", (req, res) => {
 //   res.send({ message: "Hello World" });
